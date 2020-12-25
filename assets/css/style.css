@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -8,11 +11,16 @@ a {
 }
 
 a:hover {
-  color: #ED880A;
+  color: #ed880a;
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Jost", sans-serif;
 }
 
@@ -88,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #ED880A;
+  background: #ed880a;
   color: #fff;
 }
 
@@ -99,8 +107,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background: transparent linear-gradient(85deg, #0026B5 0%, #DA2BFF 100%) 0% 0% no-repeat padding-box;
-
+  background: transparent linear-gradient(85deg, #0026b5 0%, #da2bff 100%) 0% 0%
+    no-repeat padding-box;
 }
 
 #header .logo {
@@ -135,7 +143,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
@@ -153,12 +160,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ED880A;
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #ed880a;
 }
-
-
-
+nav ul li img {
+  width: 30px;
+  padding: 0;
+}
 
 @media (max-width: 768px) {
   .get-started-btn {
@@ -218,7 +228,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #47b2e4;
   text-decoration: none;
 }
@@ -274,12 +286,62 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#section1 #carouselFade{
-margin-top: 112px;
+#section1 #carouselFade {
+  margin-top: 112px;
 }
-#section1 div.carousel-inner h1{
-font-size: 72px;
+#section1 div.carousel-inner h1 {
+  font-size: 72px;
 }
-#section1 div.ca-pa{
-  margin-bottom:147px ;
+#section1 div.ca-pa {
+  margin-bottom: 147px;
+}
+#section1 div.carousel-inner span {
+  color: #8dffe9;
+  font-weight: bold;
+  font-weight: 21px;
+}
+#section1 div.carousel-inner button {
+  border: 3px solid #8dffe9;
+  background: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+#section2{
+  margin-top: 20px;
+  overflow-x: hidden;
+  background-image: url(../../assets/img/Group\ 185.png);
+}
+.grid{
+  display: flex;
+
+}
+.items1{
+  float: right;
+  padding-top: 89px;
+  padding-left: 10px;
+  background-color: white;
+}
+.list{
+  list-style: none;
+  margin-top: 127px;
+  margin-left: -25px;
+
+}
+div.About div.parent{
+  position: relative;
+}
+div.About div.children{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -56px;
+  padding-top: 10px;
+  background: #4D4D4D;
+}
+div.About div.children img{
+  display: block;
+  width: 50px;
 }
