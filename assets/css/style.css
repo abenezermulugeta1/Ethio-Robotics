@@ -351,6 +351,10 @@ div.About div.children{
 div.About div.children img{
   display: block;
   width: 50px;
+  
+}
+.secchild{
+padding-top: 17px;
 }
 .aboutrow{
   margin: 0 114px 0 45px;
