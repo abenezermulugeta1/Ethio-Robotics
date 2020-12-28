@@ -316,10 +316,10 @@ nav ul li img {
 .homehead{
   color: white;
 }
-#section2{
+#aboutus{
   margin-top: 20px;
   overflow-x: hidden;
-  /**/background-image: url(../../assets/img/Group\ 185.png);
+  background-image: url(../../assets/img/about.png);
 }
 .grid{
   display: flex;
@@ -369,7 +369,9 @@ padding-top: 17px;
   font-weight: bold;
   font-size: 53px;
 }
-
+.p{
+padding-left: 47px;
+}
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
@@ -723,7 +725,7 @@ padding-top: 17px;
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #D77D0C;
   position: relative;
   padding-bottom: 12px;
 }
