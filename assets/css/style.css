@@ -838,3 +838,112 @@ border-radius: 50px;
   }
 }
 
+/* !!!!!!##########Mediun Device only===============############# */
+@media (min-width: 992px) and (max-width: 1199px){
+  .parent img{
+    width: 500px;
+  
+  }
+
+div.About div.children{
+  margin-right: -133px;
+  padding-top: 10px;
+  background: #4D4D4D;
+}
+.aboutpara{
+    width: 504px;
+    padding: 28px 0 0 0;
+    font-weight: 500;
+
+}
+.serviceimg{
+  width: 470px;
+}
+}
+/* ###########Small device########## */
+
+@media (min-width: 768px) and (max-width: 991px){
+  #section1 div.ca-pa{
+    margin-bottom: 0;
+  }
+  #section1 div.carousel-inner h1 {
+    font-size: 45px;
+}
+.parent img{
+      width: 393px;
+    padding-left: 36px;
+
+  }
+
+div.About div.children{
+  margin-right: -133px;
+  padding-top: 10px;
+  background: #4D4D4D;
+}
+div.About div.children img{
+  width: 26px;
+  padding-left:0;
+}
+.aboutpara{
+    width: 373px;
+    padding: 23px 0 0 39px;
+    font-size: 14px;
+}
+.serviceimg{
+  width: 362px;
+}
+footer#footer {
+  text-align: center;
+}
+footer#footer h4{
+  text-align: center;
+}
+#footer .footer-top .footer-links ul {
+  padding-left: 122px; 
+}
+.join{
+  padding-left: 236px;
+}
+}
+/* ############Extra Small Device######## */
+
+@media (max-width: 767px) {
+  #section1 div.ca-pa {
+    margin-bottom: -17px;
+}
+#section1 div.carousel-inner h1 {
+    font-size: 22px;
+}
+#section1 div.carousel-inner p {
+  font-size: 11px;
+
+}
+.items1{
+    padding-top: 0;
+    
+}
+.rectangle{
+  width: 394px;
+  padding-top: 30px;
+
+}
+div.About div.children {
+    position: absolute;
+    top: 32px;
+    right: -68px;
+    padding-top: 5px;
+    margin-right: 0px;
+
+}
+
+.aboutpara {
+    font-size: 14px;
+    width: 414px;
+    padding: 29px 0 0 0;
+    font-weight: 500;
+}
+ .serviceimg{
+ width: 394px;
+    padding-left: 93px;
+} 
+}
