@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+      overflow-x: hidden;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  overflow-x:hidden ;
+  position: relative;
+  overflow-x:hidden !important;
   font-family: 'Raleway', sans-serif;
 }
 a {
@@ -466,6 +470,7 @@ padding-left: 47px;
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+
 .span1{
   font-weight: 100;
 }
@@ -763,10 +768,6 @@ padding-left: 47px;
 }
 
 
-
-
-
-
 .join{
   display: flex;
 }
@@ -824,7 +825,7 @@ border-radius: 50px;
   }
 }
 
-/* !!!!!!##########Mediun Device only===============############# */
+/* !!!!!!##########large Device only===============############# */
 @media (min-width: 992px) and (max-width: 1199px){
   .parent img{
     width: 500px;
@@ -848,7 +849,7 @@ div.About div.children{
   
 }
 }
-/* ###########Small device########## */
+/* ###########medium device########## */
 
 @media (min-width: 768px) and (max-width: 991px){
   #section1 div.ca-pa{
@@ -877,15 +878,7 @@ div.About div.children img{
     padding: 23px 0 0 39px;
     font-size: 14px;
 }
-/* .serviceimg{
-  width: 362px;
-  transition: transform .5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
-}
-.serviceimg:hover{
-  filter: grayscale(0);
-  transform: scale(1.1);
-} */
+
 .img-hover-zoom--colorize img {
   transition: transform .5s, filter 1.5s ease-in-out;
   filter: grayscale(100%);
@@ -908,7 +901,7 @@ footer#footer h4{
   padding-left: 236px;
 }
 }
-/* ############Extra Small Device######## */
+/* ############Small Device######## */
 
 @media (max-width: 767px) {
   #section1 div.ca-pa {
@@ -950,5 +943,56 @@ div.About div.children {
     width: 394px;
     padding-left: 93px;
 } 
+}
+/* ########extra small Device MOBILE */
+@media screen and (max-width:576px){
+  .mobile{
+margin-left: -39px;
+overflow: hidden;
+  }
+  
+  #section1 div.carousel-inner h1 {
+    font-size: 16px;
+    padding-top: 15px;
+}
+#section1 div.carousel-inner p {
+    margin-bottom: 0;
+}
 
+  .rectangle {
+    width: 450px;
+  }
+  div.About div.children {
+    position: absolute;
+    top: 32px;
+    right: -145px;
+    padding-top: 5px;
+    margin-right: 0px;
+}
+.serviceimg {
+    width: 320px;
+    padding-left: 9px;
+}
+.headers {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.contact .info p {
+  font-size: 16px;
+}
+.mob-footer{
+  text-align: center;
+}
+#footer .footer-top .footer-links ul {
+    padding-left: 125px;
+   
+}
+.footer{
+    color:#212327;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 12px;
+  
+}
 }
