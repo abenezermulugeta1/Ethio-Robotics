@@ -973,6 +973,10 @@ overflow: hidden;
     padding-top: 5px;
     margin-right: 0px;
 }
+.aboutpara {
+    text-align: center;
+    width: 280px;
+}
 .serviceimg {
     width: 320px;
     padding-left: 9px;
