@@ -36,9 +36,9 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">What WE Do</a></li>
                     <li style="margin-right:50px ;"><a href="#contact">Contact Us</a></li>
-                    <li><img src="assets/img/facebook (1).png" alt="" width="50px" style="border-radius: 37px;"></a>
+                    <li class="hidden"><img src="assets/img/facebook (1).png" alt="" width="50px" style="border-radius: 37px;"></a>
                     </li>
-                    <li><img src="assets/img/insta.png" alt="instagram"></li>
+                    <li class="hidden"><img src="assets/img/insta.png" alt="instagram"></li>
                 </ul>
             </nav><!-- .nav-menu -->
         </div>
@@ -55,9 +55,9 @@
                         <h1 class="homehead" data-aos="fade-up-right" class="header1"> Crafting every single parts with
                             detail</h1>
                         <p>We will see a transformed Ethiopia with problem solving robotics technologies</p>
-                        <span>What we do</span>
+                      <a href="#portfolio"><span>What we do</span></a>
                         <br>
-                      <a href="#contact">  <button>Contact us</button></a>
+                        <a href="#contact"> <button>Contact us</button></a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -67,19 +67,21 @@
                             parts with detail
                         </h1>
                         <p>We will see a transformed Ethiopia with problem solving robotics technologies</p>
-                        <span>What we do</span>
+                    <a href="#portfolio"><span>What we do</span></a>
                         <br>
-                     <a href="#contact">   <button>Contact us</button></a>
-                    </div>
+                        <a href="#contact"> <button>Contact us</button></a>
+                        <br>
+                   
+                   </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/robo3.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption  d-md-block ca-pa">
                         <h1 class="homehead" data-aos="fade-up-right"> Crafting every single parts with detail</h1>
                         <p>We will see a transformed Ethiopia with problem solving robotics technologies</p>
-                        <span>What we do</span>
+                        <a href="#portfolio"><span>What we do</span></a>
                         <br>
-                     <a href="#contact">   <button>Contact us</button></a>
+                        <a href="#contact"> <button>Contact us</button></a>
                     </div>
                 </div>
             </div>
@@ -120,20 +122,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 About">
+                <div class="col-md-6 About" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="parent">
 
-                     <img class="rectangle" src="assets/img/Rectangle.jpg" alt="" /> 
+                        <img class="rectangle" src="assets/img/Rectangle.jpg" alt="" />
 
                         <div class="children">
                             <img src="assets/img/facebook (1).png" alt="" width="70px">
-                            <img class="secchild" src="assets/img/insta.png" alt="" width="70px"> 
+                            <img class="secchild" src="assets/img/insta.png" alt="" width="70px">
                         </div>
                     </div>
 
 
 
-                     <p class="aboutpara">Ethio robotics is upcoming leader in robotics, tackling some of the toughest
+                    <p class="aboutpara">Ethio robotics is upcoming leader in robotics, tackling some of the toughest
                         robotics challenges.
                         We combine the
                         principles of dynamic control and balance with sophisticated mechanical designs, cutting-edge
@@ -142,7 +145,7 @@
                         intelligence. Ethio
                         robotics has an extraordinary and fast-growing technical team of engineers and scientists who
                         seamlessly combine
-                        advanced analytical thinking with bold engineering and boots-in-the-mud practicality.</p> 
+                        advanced analytical thinking with bold engineering and boots-in-the-mud practicality.</p>
                 </div>
             </div>
         </div>
@@ -153,7 +156,8 @@
     <section id="services">
         <div class="container pt-5">
             <div class="row">
-                <div class="col-md-6 service">
+                <div class="col-md-6 service" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <h1 class="headers">Service We provide</h1>
                     <p>Robot data and operations platform connecting people, process, sensors,
                         and robots</p>
@@ -175,7 +179,7 @@
                         customers, fleets and operators. Track trends across all
                         aspects of your fleets and prove ROI.</P>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" >
                     <img class="serviceimg" src="assets/img/Background.png" alt="">
                 </div>
             </div>
@@ -349,33 +353,29 @@
                 </div>
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form method="post" role="form" class="php-email-form">
+                    <form action="https://submit-form.com/lGblRDfw" class="php-email-form">
+                        <!-- <input type="hidden" name="_redirect" value="http://127.0.0.1:5500/index.html" /> -->
                         <div class="form-row">
                             <div class="form-group col-md-12">
                                 <label for="name">Name</label>
-                                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
+                                <input type="text" name="name" class="form-control" id="name" 
                                     data-msg="Please enter at least 4 chars" />
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="name"> Email</label>
                                 <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                                    data-msg="Please enter a valid email" />
+                                  />
                                 <div class="validate"></div>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="name">Message</label>
-                            <textarea class="form-control" name="message" rows="10" data-rule="required"
-                                data-msg="Please write something for us"></textarea>
+                            <textarea class="form-control" name="message" rows="10" required></textarea>
                             <div class="validate"></div>
                         </div>
-                        <div class="mb-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div>
+
                         <div class="text-left"><button type="submit">Send Message</button></div>
                     </form>
                 </div>
@@ -425,8 +425,8 @@
                             </div>
                         </div>
                         <div class="social">
-                            <img src="assets/img/facebook (1).png" alt="" width="52px">
-                            <img src="assets/img/insta.png" alt="">
+                            <img src="assets/img/facebook (1).png" alt="" width="35px">
+                            <img src="assets/img/insta.png" alt="" width="35px">
                         </div>
 
                     </div>
@@ -470,6 +470,7 @@
 
 
     <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+    <div id="preloader"></div>
 
     <!-- #################################################### -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
