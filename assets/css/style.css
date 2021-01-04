@@ -312,6 +312,9 @@ nav ul li img {
   font-size: 72px;
       text-shadow: -7px 1px 0px black;
 }
+.carousel-para{
+  text-shadow: -2px 0 2px black;
+}
 #section1 div.ca-pa {
   margin-bottom: 147px;
 }
