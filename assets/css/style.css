@@ -310,6 +310,7 @@ nav ul li img {
 }
 #section1 div.carousel-inner h1 {
   font-size: 72px;
+      text-shadow: -7px 1px 0px black;
 }
 #section1 div.ca-pa {
   margin-bottom: 147px;
